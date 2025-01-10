@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -136,9 +136,9 @@ const Contact = () => {
                 <ContactButton type="submit" value="Send"/>
             </ContactForm>
             <Snackbar
-          open={open}
+          // open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          // onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
